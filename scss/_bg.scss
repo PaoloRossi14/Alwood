@@ -1,0 +1,39 @@
+$background-color :   rgb(248 ,252 , 255);
+$background-color2 :  rgba(233, 188 ,247 , 0.5);
+$background-color3 :   red;
+$background-color4 :  gray;
+$background-color5 :  yellow;
+$background-color6 :   green;
+$background-color7 :  blue;
+$background-color8 : linear-gradient(to top, red rgb(233, 131, 131));
+.bg-light{
+    background-color: $background-color;
+}
+
+.bg-vaiolet{
+    background-color: $background-color2;
+}
+
+.bg-red{
+    background-color: $background-color3;
+}
+
+.bg-grey{
+    background-color: $background-color4;
+}
+
+.bg-yellow{
+    background-color: $background-color5;
+
+}
+
+.bg-green{
+    background-color: $background-color6;
+}
+
+.bg-blue{
+    background-color: $background-color7;
+}
+.linear-gradient{
+    background: $background-color8;
+}

@@ -1,0 +1,39 @@
+.btn-more{
+    width: 100xp;
+    height: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-rounded{
+    @extend .btn-more;
+    border-radius: 3px;
+}
+
+@mixin textos($size,$interlineado,$color){
+    font-size:$size;
+    line-height:$interlineado;
+    color: $color;
+    margin: 10px 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p{
+    @include textos(2em,2.2em ,rgb(10, 26, 19) )
+}
+
+@mixin flex($dire,$justify,$align,$wrap) {
+    display: flex;
+    flex-direction: $dire;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+.box{
+    @include flex(row,center,flex-end,nowrap )
+}
+    

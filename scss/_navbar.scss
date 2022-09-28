@@ -1,0 +1,33 @@
+$position: sticky;
+$top: 0;
+$display: flex;
+$justify-content: space-between;
+$align-items: center;
+$text-decoration: none;
+$color: black;
+$font-family: 'Source Sans Pro', sans-serif;
+$font-family2 : Arial, Helvetica, sans-serif;
+
+nav{
+    position: $position;
+    top : $top;
+    display : $display;
+    justify-content : $justify-content;
+    align-items : $align-items;
+    text-align : $align-items;
+    
+}
+nav ul{
+    display: $display;
+    }
+    
+    nav ul li{
+    text-decoration: $text-decoration;
+    color: $color;
+    font-family: $font-family;
+    }
+    
+    nav ul li a{
+        text-decoration:  $text-decoration;
+        font-family: $font-family2;
+        }

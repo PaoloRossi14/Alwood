@@ -1,0 +1,114 @@
+$width : 90%;
+$width2 : 100vw;
+$width3 : 25%;
+$width4 : 50%;
+$width5 : 75%;
+$height: 300px;
+$height2: 25%;
+$height3: 100vh;
+$height4: auto;
+$font-weight: 400;
+$padding: 40px 20px;
+$padding2 : 20px;
+$padding3 : 10px;
+$border:solid 1px black;
+$border-top2: dotted deepskyblue 2px;
+$overflow-y: auto;
+$margin: 50px auto;
+$display: flex;
+$display2: grid;
+$top: 0;
+$grid-template-columns: 1fr;
+$grid-template-columns2: repeat(2,1fr);
+$grid-template-columns3: 50vh 25vh 25vh;
+$grid-row: repeat(5,1fr);
+$grid-template-rows: 20vh, 60vh, 20vh;
+$grid-template-rows2: 20vh 50vh 30vh;
+$grid-template-areas: 
+"nuestraHistoria"
+"nuestrosObjetivos"
+"nuestrosValores"
+"nuestroPersonal"
+"nutricion";
+$grid-template-areas2: 
+"nuestraHistoria nuestraHistoria"
+"nuestrosObjetivos nuestrosValores"
+"nuestroPersonal nutricion";
+$grid-template-areas3: 
+"nuestraHistoria nuestraHistoria nuestraHistoria"
+"nuestrosObjetivos nuestrosValores nuestrosValores"
+"nuestroPersonal nutricion nutricion";
+main, p{
+    font-weight: $font-weight;
+}
+
+.novedades__articulo{
+    width: $width;
+    height: $height4;
+    margin: $margin;
+    padding: $padding;
+    border-top: $border-top2;
+    overflow-y: $overflow-y;
+}
+
+.center{
+    display:$display;
+    padding: $padding2;
+    height: $height3;
+}
+
+.center2{
+    display: $display;
+    top: $top;
+
+}
+
+#contenedor-grid{
+    width: $width2;
+    height: $height3;
+    display: $display2;
+    grid-template-columns: $grid-template-columns;
+    grid-row: $grid-row;
+    grid-template-areas:  $grid-template-areas
+}
+
+@media (min-width:768px){
+    #contenedor-grid{
+    grid-template-columns: $grid-template-columns2;
+    grid-template-rows: $grid-template-rows;
+    grid-template-areas: $grid-template-areas2
+}
+}
+
+@media (min-width:1024px){
+    #contenedor-grid{
+    grid-template-columns: $grid-template-columns3;
+    grid-template-rows: $grid-template-rows2;
+    grid-template-areas:$grid-template-areas3
+}
+}
+
+.container{
+    padding: $padding3 ;
+    border:$border;
+}
+
+.w-25{
+    width: $width3;
+}
+
+.w-50{
+    width: $width4;
+}
+
+.w-75{
+    width: $width5;
+}
+
+.h-25{
+    height: $height2;
+}
+
+.h-300{
+    height: $height;
+}

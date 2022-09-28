@@ -1,0 +1,59 @@
+$flex-grow: 2;
+$flex-grow2: 1;
+$order: 1;
+$order2: 2;
+$order3: 3;
+$order4: 4;
+$order5: 5;
+$align-self: flex-start;
+$transform: translate(-10px,10px);
+$cursor: pointer;
+$transition: transform 1s;
+$width: 150px;
+
+.flex-grow1{
+    flex-grow:$flex-grow;
+}
+
+.flex-grow2{
+    flex-grow:$flex-grow;
+}
+
+.flex-grow3{
+    flex-grow: $flex-grow2;
+}
+
+.order1{
+    order: $order;
+}
+
+.order2{
+    order: $order2;
+}
+
+.order3{
+    order: $order3;
+}
+
+.order4{
+    order: $order4;
+}
+
+.order5{
+    order: $order5;
+}
+
+.align-self{
+    align-self: $align-self;
+}
+
+.transform:hover{
+    transform: $transform;
+    cursor: $cursor;
+    transition:$transition;
+}
+
+
+#botom img{
+    width: $width;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Source+Sans+Pro:wght@300&display=swap');
+$mainFount : 'Source Sans Pro', sans-serif;
+$Fount : 2rem;
+$Fount2 : 3rem;
+$Fount3 : 4rem;
+$Fount4 : 2.5rem;
+$Fount5 : 62.5%;
+$center : center;
+
+html{
+    font-size :$Fount5;
+}
+
+.novedades__titulo--md{
+    font-size: $Fount;
+}
+
+.novedades__titulo--xl{
+    font-size: $Fount2;
+}
+
+.novedades__titulo--xxl{
+    font-size: $Fount3;
+}
+
+main section p{
+    font-size: $Fount;
+    font-family: $mainFount;
+}
+
+.novedades__titulo--md{
+    font-size: $Fount;
+}
+
+.novedades__titulo--xl{
+     font-size: $Fount2;
+}
+
+.novedades__titulo--xxl{
+    font-size: $Fount3;
+}
+
+h1{
+    font-size: $Fount3;
+}
+
+h2{
+    font-size: $Fount2;
+}
+
+h3{
+    font-size: $Fount4;
+    font-family: $mainFount;
+}
+
+h4{
+    font-size: $Fount;
+}
+
+h1,h2,h3,h4{
+    font-family: $mainFount;
+}
+
+p,h1,h2,h3,h4{
+    text-align: $center ;
+}
+footer{
+    text-align: $center ;
+}
+
+.box{
+    text-align: $center;
+    font-size: $Fount2;
+    font-family: $mainFount;
+}
